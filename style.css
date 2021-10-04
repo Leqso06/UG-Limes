@@ -1,0 +1,26 @@
+body {
+  background-color: grey;
+}
+
+h3 {
+  color: purple;
+  text-align: center;
+}
+
+#text {
+  color: red;
+  text-align: center;
+  border: 3px solid red;
+  border-style: dotted;
+  border-radius: 30px;
+}
+
+#secondText {
+  color: white;
+  font-size: 9px;
+}
+
+img {
+  height: 80px;
+  width: 318px;
+}
