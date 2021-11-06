@@ -5,18 +5,301 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 50px 120px;
+  text-align: right;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+header button {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 14px 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.intro {
+  position: relative;
+  height: 631px;
+  background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro .content {
+  position: relative;
+  padding-top: 220px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.intro .content p {
+  font-size: 33px;
+}
+
+.intro .content p span {
+  color: #04bef3;
+}
+
+.intro .content h1 {
+  font-size: 68px;
+  margin: 25px;
+}
+
+.intro .content button {
+  border-radius: 5px;
+  background-color: #04bef3;
+  color: #ffffff;
+  padding: 12px 28px;
+  font-size: 18px;
+}
+
+.intro .shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #24202e;
+  opacity: 0.5;
+}
+
+.section-2 {
+  text-align: center;
+  margin: 87px 0;
+}
+
+.section-2 h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.section-2 p {
+  font-size: 19px;
+  margin: 0 550px;
+}
+
+.section-3 {
+  position: relative;
+  height: 412px;
+  background-image: url(https://images.pexels.com/photos/2678468/pexels-photo-2678468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-3 .content {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 182px;
+}
+
+.section-3 .content h1 {
+  font-size: 48px;
+}
+
+.section-3 .content p {
+  font-size: 24px;
+}
+
+.section-3 .shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #24202e;
+  opacity: 0.5;
+}
+
+.section-4 .top-text {
+  text-align: center;
+  margin-top: 76px;
+}
+
+.section-4 .top-text p {
+  font-size: 20px;
+}
+
+.section-4 .top-text h4 {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.section-4 .credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 65px;
+  font-size: 16px;
+}
+
+.section-5 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #24202e;
+  padding: 200px;
+}
+
+.section-5 h1 {
+  font-size: 53px;
+  margin-bottom: 20px;
+}
+
+.section-5 p {
+  font-size: 38px;
+}
+
+.section-5 .tavis-martleba {
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+  </style>
 </head>
 <body>
-  <div class="main-box">
-    <div class="general-box box-1"></div>
-    <div class="general-box box-2">
-      <div class="box-2-inner-div">
-        <div class="inner-child inner-child-1"></div>
-        <div class="inner-child inner-child-2"></div>
+  <header>
+    <button>
+      Upload Your CV
+    </button>
+  </header>
+
+  <section class="intro">
+    <div class="shadow"></div>
+    <div class="content">
+      <p>
+       <span>27</span> Roles in <span>3</span> Locations
+      </p>
+      <h1>Come work with us</h1>
+      <button>Current opening</button>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <h1>
+      We're looking for talented designers
+    </h1>
+    <p>
+      Join our team in Dubai to help reshape the UI/UX Design landscape and make products that reach over 20 million users worldwide.
+    </p>
+  </section>
+
+  <section class="section-3">
+    <div class="shadow"></div>
+    <div class="content">
+      <h1>Make some friends</h1>
+      <p>and a few enemies</p>
+    </div>
+  </section>
+
+  <section class="section-4">
+    <div class="top-text">
+      <p>What’s your passion? Check out all our open spots below.</p>
+      <h4>UAE - DUBAI</h4>
+    </div>
+    <div class="credits">
+      <div class="engineering">
+        <p>
+          <b>Engineering: </b><br>
+          Senior IT Engineer <br>
+          Senior Software Engineer, CMS <br>
+          Senior Software Engineer - Front End <br>
+          Sr. Engineering Manager
+        </p>
+      </div>
+      <div class="creative">
+        <p>
+          <b>Creative: </b><br>
+          UI / UX Designer <br>
+          Implementation Manager <br>
+          Production Designer
+        </p>
+      </div>
+      <div class="marketing">
+        <p>
+          <b>Marketing: </b><br>
+          Senior Manager
+        </p>
+        <p>
+          <b>Content & Ops: </b><br>
+          Translator and Subtitter
+        </p>
       </div>
     </div>
-    <div class="general-box box-3"></div>
-  </div>
+  </section>
+
+  <section class="section-5">
+    <h1>Thank You!</h1>
+    <p>Please dont forget to like, follow me for more.</p>
+    <p class="tavis-martleba">ვეღარ მოვასწარი ბოლოში დამატება :დ</p>
+  </section>
+</body>
+</html>
+
+  <section class="section-3">
+    <div class="shadow"></div>
+    <div class="content">
+      <h1>Make some friends</h1>
+      <p>and a few enemies</p>
+    </div>
+  </section>
+
+  <section class="section-4">
+    <div class="top-text">
+      <p>What’s your passion? Check out all our open spots below.</p>
+      <h4>UAE - DUBAI</h4>
+    </div>
+    <div class="credits">
+      <div class="engineering">
+        <p>
+          <b>Engineering: </b><br>
+          Senior IT Engineer <br>
+          Senior Software Engineer, CMS <br>
+          Senior Software Engineer - Front End <br>
+          Sr. Engineering Manager
+        </p>
+      </div>
+      <div class="creative">
+        <p>
+          <b>Creative: </b><br>
+          UI / UX Designer <br>
+          Implementation Manager <br>
+          Production Designer
+        </p>
+      </div>
+      <div class="marketing">
+        <p>
+          <b>Marketing: </b><br>
+          Senior Manager
+        </p>
+        <p>
+          <b>Content & Ops: </b><br>
+          Translator and Subtitter
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-5">
+    <h1>Thank You!</h1>
+    <p>Please dont forget to like, follow me for more.</p>
+    <p class="tavis-martleba">ვეღარ მოვასწარი ბოლოში დამატება :დ</p>
+  </section>
 </body>
 </html>
